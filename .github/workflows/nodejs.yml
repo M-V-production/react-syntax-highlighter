@@ -22,8 +22,8 @@ jobs:
     - name: yarn install, build, and test
       run: |
         yarn install
-        npm run build --if-present
-        npm run lint
-        npm test
-        npm run publish-coverage
+        yarn run build --if-present
+        yarn run lint
+        yarn test
+        yarn run publish-coverage
         npx semantic-release
