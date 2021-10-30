@@ -100,5 +100,13 @@
       "prettier --write",
       "git add"
     ]
-  }
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "files": [
+    "dist/"
+  ]
 }
