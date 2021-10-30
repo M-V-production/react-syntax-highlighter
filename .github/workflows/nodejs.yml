@@ -32,3 +32,4 @@ jobs:
         yarn test
         yarn run publish-coverage
         npx semantic-release
+
