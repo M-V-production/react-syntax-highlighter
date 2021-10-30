@@ -1,5 +1,5 @@
 {
-  "name": "react-syntax-highlighter",
+  "name": "@m-v-production/react-syntax-highlighter",
   "version": "15.4.4",
   "description": "syntax highlighting component for react with prismjs or highlightjs ast using inline styles",
   "main": "dist/cjs/index.js",
@@ -48,6 +48,7 @@
     "react-syntax-highlighter-virtualized-renderer": "^1.0.3",
     "react-test-renderer": "^15.3.2",
     "request": "^2.88.0",
+    "semantic-release": "^18.0.0",
     "style-loader": "^0.13.0",
     "to-camel-case": "^1.0.0",
     "webpack": "^4.22.0",
