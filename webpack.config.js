@@ -32,8 +32,7 @@ module.exports = {
     demo: './demo/index.js',
     prism: './demo/prism.js',
     diff: './demo/diff.js',
-    virtualized: './demo/virtualized.js',
-    prismAsyncLight: './demo/prism-async-light.js'
+    virtualized: './demo/virtualized.js'
   },
   output: {
     path: path.resolve(__dirname, 'demo/build'),

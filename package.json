@@ -9,7 +9,6 @@
     "@babel/runtime": "^7.3.1",
     "highlight.js": "^10.4.1",
     "lowlight": "^1.17.0",
-    "prismjs": "^1.22.0",
     "refractor": "^3.2.0"
   },
   "jest": {
@@ -66,9 +65,7 @@
     "watch": "npm run build:esm -- --watch",
     "build-styles-hljs": "node ./scripts/build-stylesheets-highlightjs.js",
     "build-languages-hljs": "node ./scripts/build-languages-highlightjs.js",
-    "build-styles-prism": "node ./scripts/build-stylesheets-refractor.js",
-    "build-languages-prism": "node ./scripts/build-languages-refractor.js",
-    "prepare": "npm run build-styles-hljs && npm run build-languages-hljs && npm run build-styles-prism && npm run build-languages-prism && npm run build",
+    "prepare": "npm run build-styles-hljs && npm run build-languages-hljs && npm run build",
     "test": "jest",
     "test-ci": "jest && codecov",
     "publish-coverage": "codecov",

@@ -18,10 +18,6 @@ const ExamplesLinks = () => {
       label: 'Virtualized',
       path: './virtualized.html'
     },
-    {
-      label: 'Prism async light',
-      path: './prism-async-light.html'
-    }
   ];
 
   const baseLiClass = 'demo-nav__li';
