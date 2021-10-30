@@ -30,7 +30,6 @@ module.exports = {
   },
   entry: {
     demo: './demo/index.js',
-    prism: './demo/prism.js',
     diff: './demo/diff.js',
     virtualized: './demo/virtualized.js'
   },
