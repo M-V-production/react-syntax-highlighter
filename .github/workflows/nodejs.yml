@@ -12,6 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       token: d37b4f28-c0ae-4546-81c9-0487a264db20
+      GITHUB_NPM_TOKEN: ${{ secrets.github_token }}
+      GITHUB_TOKEN: ${{ secrets.github_token }}
     strategy:
       matrix:
         node-version: [ 14.x ]
