@@ -9,7 +9,7 @@
 
 type lineTagPropsFunction = (lineNumber: number) => React.HTMLProps<HTMLElement>;
 
-declare module 'react-syntax-highlighter' {
+declare module '@m-v-production/react-syntax-highlighter' {
     export interface SyntaxHighlighterProps {
         language?: string;
         style?: any;
