@@ -73,10 +73,7 @@
     "prettier": "prettier --write --no-editorconfig \"{src,scripts,__tests__}/**/*.js\"",
     "lint": "eslint --ext .js,.jsx ./src ./scripts ./__tests__"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/react-syntax-highlighter/react-syntax-highlighter.git"
-  },
+  "repository": "git@github.com:M-V-production/react-syntax-highlighter.git",
   "keywords": [
     "react",
     "syntax",
@@ -103,8 +100,6 @@
   },
   "release": {
     "branches": [
-      "master",
-      "next",
       "main"
     ]
   }
